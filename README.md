@@ -6,7 +6,7 @@ This project implements a comprehensive movie recommendation system using the Mo
 
 ## Dataset
 
-The MovieLens 100k dataset contains:
+The [MovieLens 100K Dataset](https://files.grouplens.org/datasets/movielens/ml-100k.zip) - 100,000 movie ratings from 943 users on 1,682 movies contains:
 - 100,000 ratings (1-5) from 943 users on 1,682 movies
 - Each user has rated at least 20 movies
 - Simple demographic information for users (age, gender, occupation, zip code)
@@ -125,20 +125,6 @@ Example recommendations for User 1:
 4. Schindler's List (1993)
 5. Third Man, The (1949)
 
-## Installation and Usage
-
-```bash
-# Clone the repository
-git clone https://github.com/username/movielens-recommender.git
-cd movielens-recommender
-
-# Install dependencies
-pip install numpy pandas matplotlib seaborn scikit-learn scikit-surprise joblib tqdm wordcloud
-
-# Run the recommendation system
-python main.py
-```
-
 ## Future Work
 
 - **Deep Learning Integration**: Implement neural network-based recommendation models (NCF, AutoEncoders)
@@ -161,16 +147,9 @@ python main.py
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-
-*This recommendation system was developed as part of an advanced machine learning project focused on personalized content delivery systems.*
